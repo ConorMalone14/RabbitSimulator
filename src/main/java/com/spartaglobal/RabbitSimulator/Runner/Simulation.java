@@ -1,27 +1,42 @@
 package com.spartaglobal.RabbitSimulator.Runner;
 
+import com.spartaglobal.RabbitSimulator.Printer.Printer;
+import com.spartaglobal.RabbitSimulator.Rabbit.PopulationIncrement;
+
+import java.util.Scanner;
+
 public class Simulation {
 
-    private int timeElapsed;
+    private static int timeElapsed;
 
-    public void runOneMonth() {
-
+    public static void runOneMonth() {
+        PopulationIncrement.runIncrement();
+        timeElapsed++;
     }
 
-    public void runSimulationForTime(int timeElapsed) {
-
+    public static void runSimulationForTime(int timeToRun) {
+        for (int i = 1; i <= timeToRun; i++) {
+            runOneMonth();
+        }
     }
 
-    public int startSimulation() {
-        return 0;
+    public static void startSimulation() {
+        Printer.printSimulationMenu();
+        Scanner scanner = new Scanner(System.in);
+        int runtimeLength = scanner.nextInt();
+        Printer.startMessage();
+        runSimulationForTime(runtimeLength);
+        Printer.victoryMessage();
+        getReport();
     }
 
-    public int getElapsedTime() {
-        return 0;
+    public static int getElapsedTime() {
+        return timeElapsed;
     }
 
-    public void getReport() {
-
+    public static void getReport() {
+        Printer.printPopulation();
+        Printer.printTotalTimeElapsed();
     }
 
 }

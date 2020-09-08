@@ -4,7 +4,7 @@ public class PopulationIncrement {
 
     private boolean breedingMale;
 
-    public void runIncrement() {
+    public static void runIncrement() {
 
     }
 
