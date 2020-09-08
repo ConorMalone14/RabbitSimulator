@@ -4,32 +4,45 @@ import java.util.ArrayList;
 
 public class RabbitPopulation {
 
-    private ArrayList<Rabbit> aliveMales = new ArrayList<>();
-    private ArrayList<Rabbit> aliveFemales = new ArrayList<>();
-    private ArrayList<Rabbit> deadRabbits = new ArrayList<>();
+    private static ArrayList<Rabbit> aliveMales = new ArrayList<>();
+    private static ArrayList<Rabbit> aliveFemales = new ArrayList<>();
+    private static ArrayList<Rabbit> deadRabbits = new ArrayList<>();
 
-    public int getTotalRabbits() {
-        return 0;
+    public static int getTotalRabbits() {
+        return (aliveMales.size() + aliveFemales.size());
     }
 
-    public int getTotalMales() {
-        return 0;
+    public static int getTotalMales() {
+        return aliveMales.size();
     }
 
-    public int getTotalFemales() {
-        return 0;
+    public static int getTotalFemales() {
+        return aliveFemales.size();
     }
 
-    public int getTotalDead() {
-        return 0;
+    public static int getTotalDead() {
+        return deadRabbits.size();
     }
 
-    public void addRabbit(Rabbit rabbit) {
-
+    public static void addRabbit(Rabbit rabbit) {
+        if (rabbit.isMale()) {
+            aliveMales.add(rabbit);
+        } else {
+            aliveFemales.add(rabbit);
+        }
     }
 
-    public void moveToDead(Rabbit rabbit) {
+    public static void moveToDead(Rabbit rabbit) {
+        aliveFemales.remove(rabbit);
+        aliveMales.remove(rabbit);
+        deadRabbits.add(rabbit);
+    }
 
+    // for testing use
+    public static void resetAllArrayLists() {
+        aliveMales.clear();
+        aliveFemales.clear();
+        deadRabbits.clear();
     }
 
 }
