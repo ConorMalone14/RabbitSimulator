@@ -54,7 +54,7 @@ public class PopulationIncrementTester {
             PopulationIncrement.runIncrement();
         }
 
-        int population = RabbitPopulation.getTotalRabbits();
+        long population = RabbitPopulation.getTotalRabbits();
         System.out.println(population);
 
         Assertions.assertTrue(population > 2);

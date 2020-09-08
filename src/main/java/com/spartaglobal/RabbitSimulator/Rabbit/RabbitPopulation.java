@@ -21,19 +21,19 @@ public class RabbitPopulation {
     private static ArrayList<Rabbit> aliveFemales = new ArrayList<>();
     private static ArrayList<Rabbit> deadRabbits = new ArrayList<>();
 
-    public static int getTotalRabbits() {
+    public static long getTotalRabbits() {
         return (aliveMales.size() + aliveFemales.size());
     }
 
-    public static int getTotalMales() {
+    public static long getTotalMales() {
         return aliveMales.size();
     }
 
-    public static int getTotalFemales() {
+    public static long getTotalFemales() {
         return aliveFemales.size();
     }
 
-    public static int getTotalDead() {
+    public static long getTotalDead() {
         return deadRabbits.size();
     }
 
