@@ -4,32 +4,47 @@ import com.spartaglobal.RabbitSimulator.Rabbit.Rabbit;
 
 public class BreederFactory {
 
-    //Makes calls to makeNewRabbit()
-    public void makeNewRabbits() {
+    public Rabbit makeNewRabbit() {
+        Rabbit rabbit = new Rabbit();
+        rabbit.setMale(isBornMale());
 
+        return rabbit;
     }
 
-    public Rabbit makeNewRabbit() {
-
-        return new Rabbit();
+    //Makes calls to makeNewRabbit()
+    public void makeNewRabbits(int numberOfRabbits) {
+        for (int i = 0; i < numberOfRabbits; i++) {
+            makeNewRabbit();
+        }
     }
 
     //Generates random number between 1-14
     public int getOffspringNumber() {
-        return 0;
+        int numberOfOffspring = (int) Math.ceil(Math.random() * 14);
+        return numberOfOffspring;
     }
 
     //Return random boolean true or false
     public boolean isBornMale() {
-        return true;
+        // Math.random() by default is between 0 and 1
+        int randomNumber = (int) Math.round(Math.random());
+        boolean isMale = (randomNumber == 0) ? false : true;
+
+        return isMale;
     }
 
     public Rabbit getStartingMale() {
-        return new Rabbit();
+        Rabbit rabbit = new Rabbit();
+        rabbit.setMale(true);
+
+        return rabbit;
     }
 
     public Rabbit getStartingFemale() {
-        return new Rabbit();
+        Rabbit rabbit = new Rabbit();
+        rabbit.setMale(false);
+
+        return rabbit;
     }
 
 }
