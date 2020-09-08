@@ -13,7 +13,7 @@ public class Rabbit {
     }
 
     public boolean isEligible() {
-        if(age > 3 && age <= 60){
+        if(age >= 3 && age <= 60){
             return true;
         } return false;
     }
