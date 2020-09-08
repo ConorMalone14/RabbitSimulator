@@ -1,10 +1,13 @@
 package com.spartaglobal.RabbitSimulator.Factory;
 
 import com.spartaglobal.RabbitSimulator.Rabbit.Rabbit;
+import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
+
+import java.util.ArrayList;
 
 public class BreederFactory {
 
-    public Rabbit makeNewRabbit() {
+    public static Rabbit makeNewRabbit() {
         Rabbit rabbit = new Rabbit();
         rabbit.setMale(isBornMale());
 
@@ -12,20 +15,23 @@ public class BreederFactory {
     }
 
     //Makes calls to makeNewRabbit()
-    public void makeNewRabbits(int numberOfRabbits) {
+    public static ArrayList<Rabbit> makeNewRabbits() {
+        int numberOfRabbits = getOffspringNumber();
+        ArrayList<Rabbit> rabbits = new ArrayList<>();
         for (int i = 0; i < numberOfRabbits; i++) {
-            makeNewRabbit();
+            rabbits.add(makeNewRabbit());
         }
+        return rabbits;
     }
 
     //Generates random number between 1-14
-    public int getOffspringNumber() {
+    public static int getOffspringNumber() {
         int numberOfOffspring = (int) Math.ceil(Math.random() * 14);
         return numberOfOffspring;
     }
 
     //Return random boolean true or false
-    public boolean isBornMale() {
+    public static boolean isBornMale() {
         // Math.random() by default is between 0 and 1
         int randomNumber = (int) Math.round(Math.random());
         boolean isMale = (randomNumber == 0) ? false : true;
@@ -33,14 +39,14 @@ public class BreederFactory {
         return isMale;
     }
 
-    public Rabbit getStartingMale() {
+    public static Rabbit getStartingMale() {
         Rabbit rabbit = new Rabbit();
         rabbit.setMale(true);
 
         return rabbit;
     }
 
-    public Rabbit getStartingFemale() {
+    public static Rabbit getStartingFemale() {
         Rabbit rabbit = new Rabbit();
         rabbit.setMale(false);
 

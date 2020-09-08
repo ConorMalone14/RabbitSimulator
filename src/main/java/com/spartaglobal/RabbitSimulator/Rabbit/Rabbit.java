@@ -5,6 +5,10 @@ public class Rabbit {
     private int age;
     private boolean male;
 
+    public Rabbit() {
+        age = 0;
+    }
+
     public boolean isExpired() {
         if(age > 60){
             return true;
