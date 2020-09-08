@@ -21,12 +21,16 @@ public class Simulation {
     }
 
     public static void startSimulation() {
-        int runtimeLength;
+        int runtimeLength = 0;
         do {
-            Printer.printSimulationMenu();
-            Scanner scanner = new Scanner(System.in);
-            runtimeLength = scanner.nextInt();
-        } while (runtimeLength < 0);
+            try {
+                Printer.printSimulationMenu();
+                Scanner scanner = new Scanner(System.in);
+                runtimeLength = scanner.nextInt();
+            } catch (Exception e) {
+                System.out.println("Please input a valid positive time in months.");
+            }
+        } while (runtimeLength <= 0);
 
         Printer.startMessage();
         runSimulationForTime(runtimeLength);
