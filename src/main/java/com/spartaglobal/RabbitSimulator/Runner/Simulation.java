@@ -21,9 +21,13 @@ public class Simulation {
     }
 
     public static void startSimulation() {
-        Printer.printSimulationMenu();
-        Scanner scanner = new Scanner(System.in);
-        int runtimeLength = scanner.nextInt();
+        int runtimeLength;
+        do {
+            Printer.printSimulationMenu();
+            Scanner scanner = new Scanner(System.in);
+            runtimeLength = scanner.nextInt();
+        } while (runtimeLength < 0);
+
         Printer.startMessage();
         runSimulationForTime(runtimeLength);
         Printer.victoryMessage();
