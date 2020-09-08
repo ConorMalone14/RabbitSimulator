@@ -6,15 +6,20 @@ public class Rabbit {
     private boolean male;
 
     public boolean isExpired() {
-        return true;
+        if(age > 60){
+            return true;
+        }
+        return false;
     }
 
     public boolean isEligible() {
-        return true;
+        if(age > 3 && age <= 60){
+            return true;
+        } return false;
     }
 
     public void incrementAge() {
-
+        age++;
     }
 
     public int getAge() {
