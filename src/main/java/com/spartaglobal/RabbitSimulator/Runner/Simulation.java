@@ -2,8 +2,6 @@ package com.spartaglobal.RabbitSimulator.Runner;
 
 import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
 import com.spartaglobal.RabbitSimulator.Printer.Printer;
-import com.spartaglobal.RabbitSimulator.Rabbit.PopulationIncrement;
-import com.spartaglobal.RabbitSimulator.Rabbit.Rabbit;
 import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
 
 import java.util.Scanner;
@@ -13,17 +11,11 @@ public class Simulation {
     private static int timeElapsed;
 
     public static void runOneMonth() {
-        PopulationIncrement.runIncrement();
-        timeElapsed++;
+
     }
 
     public static void runSimulationForTime(int timeToRun) {
-        RabbitPopulation.addRabbit(BreederFactory.getStartingMale());
-        RabbitPopulation.addRabbit(BreederFactory.getStartingFemale());
 
-        for (int i = 1; i <= timeToRun; i++) {
-            runOneMonth();
-        }
     }
 
     public static void startSimulation() {

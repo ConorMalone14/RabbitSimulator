@@ -1,71 +1,44 @@
 package com.spartaglobal.RabbitSimulator.Rabbit;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.math.BigInteger;
+import java.util.ArrayDeque;
 
 public class RabbitPopulation {
 
-    public static ArrayList<Rabbit> getAliveMales() {
+    public static ArrayDeque<BigInteger> getAliveMales() {
         return aliveMales;
     }
 
-    public static ArrayList<Rabbit> getAliveFemales() {
+    public static ArrayDeque<BigInteger> getAliveFemales() {
         return aliveFemales;
     }
 
-    public static ArrayList<Rabbit> getDeadRabbits() {
+    public static ArrayDeque<BigInteger> getDeadRabbits() {
         return deadRabbits;
     }
 
-    private static ArrayList<Rabbit> aliveMales = new ArrayList<>();
-    private static ArrayList<Rabbit> aliveFemales = new ArrayList<>();
-    private static ArrayList<Rabbit> deadRabbits = new ArrayList<>();
+    private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>();
+    private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>();
+    private static ArrayDeque<BigInteger> deadRabbits = new ArrayDeque<>();
 
-    public static long getTotalRabbits() {
-        return (aliveMales.size() + aliveFemales.size());
+    public static BigInteger getTotalRabbits() {
+        return null;
     }
 
-    public static long getTotalMales() {
-        return aliveMales.size();
+    public static BigInteger getTotalMales() {
+        return null;
     }
 
-    public static long getTotalFemales() {
-        return aliveFemales.size();
+    public static BigInteger getTotalFemales() {
+        return null;
     }
 
-    public static long getTotalDead() {
-        return deadRabbits.size();
+    public static BigInteger getTotalDead() {
+        return null;
     }
 
-    public static void addRabbit(Rabbit rabbit) {
-        if (rabbit.isMale()) {
-            aliveMales.add(rabbit);
-        } else {
-            aliveFemales.add(rabbit);
-        }
-    }
+    public static void addNextGeneration(BigInteger newRabbits) {
 
-    public static void moveToDead(Rabbit rabbit) {
-        Iterator<Rabbit> maleRabbitIterator = aliveMales.iterator();
-        Iterator<Rabbit> femaleRabbitIterator = aliveFemales.iterator();
-
-        while (maleRabbitIterator.hasNext()) {
-            Rabbit currentRabbit = maleRabbitIterator.next();
-            if (currentRabbit.equals(rabbit)) {
-                maleRabbitIterator.remove();
-                break;
-            }
-        }
-
-        while (femaleRabbitIterator.hasNext()) {
-            Rabbit currentRabbit = femaleRabbitIterator.next();
-            if (currentRabbit.equals(rabbit)) {
-                maleRabbitIterator.remove();
-                break;
-            }
-        }
-
-        deadRabbits.add(rabbit);
     }
 
     // for testing use

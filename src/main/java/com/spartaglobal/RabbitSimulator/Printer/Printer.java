@@ -5,6 +5,14 @@ import com.spartaglobal.RabbitSimulator.Runner.Simulation;
 
 public class Printer {
 
+    public static void printDeadPopulation(){
+
+    }
+
+    public static void printCurrentMonthData() {
+
+    }
+
     public static void printPopulation() {
         System.out.println("Total population of rabbits: " + RabbitPopulation.getTotalRabbits());
         System.out.println("Population of females: " + RabbitPopulation.getTotalFemales());
