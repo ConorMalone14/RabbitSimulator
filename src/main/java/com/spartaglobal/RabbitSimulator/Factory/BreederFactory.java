@@ -5,8 +5,6 @@ import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
-import java.util.Random;
-
 
 public class BreederFactory {
 
@@ -19,19 +17,14 @@ public class BreederFactory {
         BigInteger currentEligibleFemales = RabbitPopulation.getEligibleFemales();
 
         BigInteger rabbitCouples = currentEligibleFemales.min(currentEligibleMales);
-        System.out.println("Rabbit couples: "+rabbitCouples.toString());
 
         BigInteger numberOfSuccessfulBirths = new BigDecimal(rabbitCouples).divide(BigDecimal.valueOf((double)1/getRandomDistribution(0,1,1000)), RoundingMode.HALF_UP).toBigInteger();
-        System.out.println("Successful births: "+numberOfSuccessfulBirths.toString());
 
         BigInteger numberOfBabies = new BigDecimal(numberOfSuccessfulBirths).divide(BigDecimal.valueOf((double)1/getRandomDistribution(1,14,1000)), RoundingMode.HALF_UP).toBigInteger();
-        System.out.println("numberOfBabies : "+numberOfBabies.toString());
 
         BigInteger numberOfMales = new BigDecimal(numberOfBabies).divide(BigDecimal.valueOf((double)1/getRandomDistribution(0,1,1000)), RoundingMode.HALF_UP).toBigInteger();
-        System.out.println("numberOfMales: "+numberOfMales.toString());
 
         BigInteger numberOfFemales = numberOfBabies.subtract(numberOfMales);
-        System.out.println("NumberOfFemales: "+numberOfSuccessfulBirths.toString());
 
         RabbitPopulation.addNextGeneration(numberOfMales, numberOfFemales);
 
