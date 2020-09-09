@@ -2,24 +2,34 @@ package com.spartaglobal.RabbitSimulator.Runner;
 
 import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
 import com.spartaglobal.RabbitSimulator.Printer.Printer;
-import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Simulation {
 
     private static int timeElapsed;
+    static int reportChoice = 0;
 
     public static void runOneMonth() {
-
+        BreederFactory.makeNewRabbits();
+        timeElapsed++;
     }
 
-    public static void runSimulationForTime(int timeToRun) {
-
+    public static void runSimulationForTime(int timeToRun) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/main/resources/monthlyReport.txt"));
+        for (int i=1; i<= timeToRun; i++){
+            runOneMonth();
+            if(reportChoice == 1){
+                Printer.printCurrentMonthData(bufferedWriter);
+            }
+        }
+        bufferedWriter.close();
     }
 
-    public static void startSimulation() {
-
+    public static void startSimulation() throws IOException {
         int runtimeLength = 0;
         do {
             try {
@@ -30,6 +40,16 @@ public class Simulation {
                 System.out.println("Please input a valid positive time in months.");
             }
         } while (runtimeLength <= 0);
+
+        do {
+            try {
+                Printer.askReportFormat();
+                Scanner scanner = new Scanner(System.in);
+                reportChoice = scanner.nextInt();
+            } catch (Exception e) {
+                System.out.println("Please input either 1 or 2 as your preferred choice");
+            }
+        } while (reportChoice != 1 && reportChoice != 2);
 
         Printer.startMessage();
         runSimulationForTime(runtimeLength);
