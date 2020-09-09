@@ -17,8 +17,7 @@ public class BreederFactoryTester {
 
     @Test
     public void testIsBornMale() {
-        Assertions.assertEquals(false, breederFactory.isBornMale());
-        Assertions.assertEquals(true, breederFactory.isBornMale());
+
     }
 
     @Test
