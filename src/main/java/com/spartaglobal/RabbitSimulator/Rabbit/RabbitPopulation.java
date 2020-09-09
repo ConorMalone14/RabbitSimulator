@@ -5,6 +5,8 @@ import java.util.ArrayDeque;
 
 public class RabbitPopulation {
 
+
+
     public static ArrayDeque<BigInteger> getAliveMales() {
         return aliveMales;
     }
@@ -13,39 +15,95 @@ public class RabbitPopulation {
         return aliveFemales;
     }
 
-    public static ArrayDeque<BigInteger> getDeadRabbits() {
+    public static BigInteger getDeadRabbits() {
         return deadRabbits;
     }
 
-    private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>();
-    private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>();
-    private static ArrayDeque<BigInteger> deadRabbits = new ArrayDeque<>();
+    private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>(60);
+    private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>(60);
+    private static BigInteger deadRabbits = BigInteger.ZERO;
 
     public static BigInteger getTotalRabbits() {
-        return null;
+        return getTotalMales().add(getTotalFemales());
     }
 
     public static BigInteger getTotalMales() {
-        return null;
+
+        BigInteger malePopulation = BigInteger.ZERO;
+        for (BigInteger i : aliveMales) {
+            malePopulation = malePopulation.add(i);
+        }
+        return malePopulation;
     }
 
     public static BigInteger getTotalFemales() {
-        return null;
+
+        BigInteger femalePopulation = BigInteger.ZERO;
+        for (BigInteger i : aliveFemales) {
+            femalePopulation = femalePopulation.add(i);
+        }
+        return femalePopulation;
     }
 
     public static BigInteger getTotalDead() {
-        return null;
+        return deadRabbits;
     }
 
-    public static void addNextGeneration(BigInteger newRabbits) {
+    public static BigInteger getEligibleMales() {
 
+        BigInteger eligibleMales = BigInteger.ZERO;
+        int generation = 1;
+
+        for (BigInteger i : aliveMales) {
+            if (generation >= 3) {
+                eligibleMales = eligibleMales.add(i);
+            }
+            generation++;
+        }
+        return eligibleMales;
+    }
+
+    public static BigInteger getEligibleFemales() {
+
+        BigInteger eligibleFemales = BigInteger.ZERO;
+        int generation = 1;
+
+        for (BigInteger i : aliveFemales) {
+            if (generation >= 4) {
+                eligibleFemales = eligibleFemales.add(i);
+            }
+            generation++;
+        }
+        return eligibleFemales;
+    }
+
+    public static void addNextGeneration(BigInteger newMaleRabbits, BigInteger newFemaleRabbits) {
+        deadRabbits = deadRabbits.add(aliveFemales.pollLast());
+        deadRabbits = deadRabbits.add(aliveMales.pollLast());
+
+        aliveMales.addFirst(newMaleRabbits);
+        aliveFemales.addFirst(newFemaleRabbits);
     }
 
     // for testing use
-    public static void resetAllArrayLists() {
+    public static void resetAllArrayDequeues() {
         aliveMales.clear();
         aliveFemales.clear();
-        deadRabbits.clear();
+        initialiseArrayDequeues();
+    }
+
+    //Initialising the ArrayDeque
+    public static void initialiseArrayDequeues() {
+        for (int i = 0;i < 59;i++) {
+            aliveMales.add(BigInteger.ZERO);
+            aliveFemales.add(BigInteger.ZERO);
+        }
+        aliveMales.addFirst(BigInteger.ONE);
+        aliveFemales.addFirst(BigInteger.ONE);
+    }
+
+    static {
+        initialiseArrayDequeues();
     }
 
 }

@@ -1,32 +1,54 @@
 package com.spartaglobal.RabbitSimulator.Factory;
 
-import java.math.BigInteger;
+import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.math.RoundingMode;
 
 public class BreederFactory {
+
 
 
     //Makes calls to makeNewRabbit()
     public static void makeNewRabbits() {
 
+        BigInteger currentEligibleMales = RabbitPopulation.getEligibleMales();
+        BigInteger currentEligibleFemales = RabbitPopulation.getEligibleFemales();
+
+        BigInteger rabbitCouples = currentEligibleFemales.min(currentEligibleMales);
+
+        BigInteger numberOfSuccessfulBirths = new BigDecimal(rabbitCouples).divide(BigDecimal.valueOf((double)1/getRandomDistribution(0,1,1000)), RoundingMode.HALF_UP).toBigInteger();
+
+        BigInteger numberOfBabies = new BigDecimal(numberOfSuccessfulBirths).divide(BigDecimal.valueOf((double)1/getRandomDistribution(1,14,1000)), RoundingMode.HALF_UP).toBigInteger();
+
+        BigInteger numberOfMales = new BigDecimal(numberOfBabies).divide(BigDecimal.valueOf((double)1/getRandomDistribution(0,1,1000)), RoundingMode.HALF_UP).toBigInteger();
+
+        BigInteger numberOfFemales = numberOfBabies.subtract(numberOfMales);
+
+        RabbitPopulation.addNextGeneration(numberOfMales, numberOfFemales);
+
+
+        //50% chance for successful birth
+        //--> n couples means n coin flips (hard way)
+        //--> divide by 2 (easy way)
+        //1-14 roll for amount of rabbits
+        //50/50 male or female
     }
 
-    //Generates random number between 1-14
-    public static BigInteger getOffspringNumber() {
-        return null;
-    }
+    public static double getRandomDistribution(int lowerBound, int upperBound, int instances) {
 
-    //Return random boolean true or false
-    public static boolean isBornMale() {
-        return false;
-    }
+        double total = 0;
 
-    public static BigInteger findEligibleMales() {
-        return null;
-    }
+        for (int i = 0;i < instances;i++) {
+            double difference = (double) upperBound - lowerBound;
+            total += (Math.random()*difference) + lowerBound;
+        }
 
-    public static BigInteger findEligibleFemales() {
-        return null;
+        double averages = total/instances;
+
+
+        return averages;
     }
 
 }
