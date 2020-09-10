@@ -21,7 +21,6 @@ public class RabbitPopulation implements Population{
 
         BigInteger femaleRabbitsToBeEaten = rabbitsToBeEaten.subtract(maleRabbitsToBeEaten);
 
-        BigInteger minimumPopulation = maleRabbitsToBeEaten.min(femaleRabbitsToBeEaten);
         BigInteger maleDiff = BigInteger.ZERO;
         BigInteger totalMales = getTotalMales();
         if (maleRabbitsToBeEaten.compareTo(totalMales) > 0) {
@@ -78,9 +77,9 @@ public class RabbitPopulation implements Population{
         }
 
         Collections.reverse(aliveMalesArray);
-        aliveMales = new ArrayDeque<BigInteger>(aliveMalesArray);
+        aliveMales = new ArrayDeque<>(aliveMalesArray);
         Collections.reverse(aliveFemalesArray);
-        aliveFemales = new ArrayDeque<BigInteger>(aliveFemalesArray);
+        aliveFemales = new ArrayDeque<>(aliveFemalesArray);
 
 
 

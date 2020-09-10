@@ -1,8 +1,6 @@
 package com.spartaglobal.RabbitSimulator.Breeder;
 
 import com.spartaglobal.RabbitSimulator.Population.FoxPopulation;
-import com.spartaglobal.RabbitSimulator.Population.Population;
-import com.spartaglobal.RabbitSimulator.Population.RabbitPopulation;
 import com.spartaglobal.RabbitSimulator.Utilities.RandomGenerator;
 
 import java.math.BigDecimal;

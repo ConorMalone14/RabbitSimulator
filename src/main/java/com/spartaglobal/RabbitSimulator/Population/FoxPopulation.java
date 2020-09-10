@@ -96,10 +96,6 @@ public class FoxPopulation implements Population {
         return femalePopulation;
     }
 
-    public static BigInteger getTotalDead() {
-        return deadAnimals;
-    }
-
     public static ArrayDeque<BigInteger> getAliveMales() {
         return aliveMales;
     }
