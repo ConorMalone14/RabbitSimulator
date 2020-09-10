@@ -5,9 +5,20 @@ import java.util.ArrayDeque;
 
 public abstract class Population {
 
-    private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>(60);
-    private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>(60);
-    private static BigInteger deadRabbits = BigInteger.ZERO;
+    private static int generationsPerLifeSpan = 60;
+    private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>(generationsPerLifeSpan);
+    private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>(generationsPerLifeSpan);
+    private static BigInteger deadAnimals = BigInteger.ZERO;
+
+    public static int getGenerationsPerLifeSpan() {
+        return generationsPerLifeSpan;
+    }
+
+    public static void setGenerationsPerLifeSpan(int generationsPerLifeSpan) {
+        Population.generationsPerLifeSpan = generationsPerLifeSpan;
+    }
+
+
 
     public static BigInteger getEligibleMales() {
 
@@ -20,8 +31,8 @@ public abstract class Population {
     }
 
     public static void addNextGeneration(BigInteger newMaleRabbits, BigInteger newFemaleRabbits) {
-        deadRabbits = deadRabbits.add(aliveFemales.pollLast());
-        deadRabbits = deadRabbits.add(aliveMales.pollLast());
+        deadAnimals = deadAnimals.add(aliveFemales.pollLast());
+        deadAnimals = deadAnimals.add(aliveMales.pollLast());
 
         aliveMales.addFirst(newMaleRabbits);
         aliveFemales.addFirst(newFemaleRabbits);
@@ -36,7 +47,7 @@ public abstract class Population {
 
     //Initialising the ArrayDeque
     public static void initialiseArrayDequeues() {
-        for (int i = 0;i < 59;i++) {
+        for (int i = 0;i < generationsPerLifeSpan-1;i++) {
             aliveMales.add(BigInteger.ZERO);
             aliveFemales.add(BigInteger.ZERO);
         }
@@ -48,7 +59,7 @@ public abstract class Population {
         initialiseArrayDequeues();
     }
 
-    public static BigInteger getTotalRabbits() {
+    public static BigInteger getTotalAnimals() {
         return getTotalMales().add(getTotalFemales());
     }
 
@@ -71,7 +82,7 @@ public abstract class Population {
     }
 
     public static BigInteger getTotalDead() {
-        return deadRabbits;
+        return deadAnimals;
     }
 
     public static ArrayDeque<BigInteger> getAliveMales() {
@@ -82,8 +93,8 @@ public abstract class Population {
         return aliveFemales;
     }
 
-    public static BigInteger getDeadRabbits() {
-        return deadRabbits;
+    public static BigInteger getDeadAnimals() {
+        return deadAnimals;
     }
 
     public static void setAliveMales(ArrayDeque<BigInteger> aliveMales) {
@@ -94,7 +105,7 @@ public abstract class Population {
         Population.aliveFemales = aliveFemales;
     }
 
-    public static void setDeadRabbits(BigInteger deadRabbits) {
-        Population.deadRabbits = deadRabbits;
+    public static void setDeadAnimals(BigInteger deadAnimals) {
+        Population.deadAnimals = deadAnimals;
     }
 }

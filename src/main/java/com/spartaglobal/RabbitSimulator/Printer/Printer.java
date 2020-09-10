@@ -11,7 +11,7 @@ public class Printer {
     public static void printCurrentMonthData(BufferedWriter bufferedWriter) throws IOException {
         bufferedWriter.write("-------------------------------");
         bufferedWriter.write("\nMonthly Report for Month " + Simulation.getElapsedTime());
-        bufferedWriter.write("\nTotal population of rabbits: " + RabbitPopulation.getTotalRabbits());
+        bufferedWriter.write("\nTotal population of rabbits: " + RabbitPopulation.getTotalAnimals());
         bufferedWriter.write("\nPopulation of females: " + RabbitPopulation.getTotalFemales());
         bufferedWriter.write("\nPopulation of males: " + RabbitPopulation.getTotalMales());
         bufferedWriter.write("\nPopulation of total expired rabbits: " + RabbitPopulation.getTotalDead());
@@ -21,7 +21,7 @@ public class Printer {
     public static void printPopulation() {
         System.out.println("-------------------------------");
         System.out.println("Final Report for Simulation");
-        System.out.println("Total population of rabbits: " + RabbitPopulation.getTotalRabbits());
+        System.out.println("Total population of rabbits: " + RabbitPopulation.getTotalAnimals());
         System.out.println("Total population of females: " + RabbitPopulation.getTotalFemales());
         System.out.println("Total population of males: " + RabbitPopulation.getTotalMales());
         System.out.println("Total population of expired rabbits: " + RabbitPopulation.getTotalDead());
