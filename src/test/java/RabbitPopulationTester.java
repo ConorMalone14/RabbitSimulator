@@ -1,13 +1,11 @@
-import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
-import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
+import com.spartaglobal.RabbitSimulator.Breeder.RabbitBreeder;
+import com.spartaglobal.RabbitSimulator.Population.RabbitPopulation;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.math.RoundingMode;
 
 public class RabbitPopulationTester {
 
@@ -34,9 +32,9 @@ public class RabbitPopulationTester {
     @Test
     void testDoesKillRabbitsAfter80Generations() {
         for (int i = 0;i < 80;i++) {
-            BreederFactory.makeNewRabbits();
+            RabbitBreeder.makeNewAnimals();
         }
-        String deadRabbits = RabbitPopulation.getDeadRabbits().toString();
+        String deadRabbits = RabbitPopulation.getDeadAnimals().toString();
         Assertions.assertTrue(deadRabbits.compareTo("0") > 0);
     }
 
@@ -44,7 +42,7 @@ public class RabbitPopulationTester {
     @Test
     void testFourMonthCycle() {
         for (int i = 0;i < 4;i++) {
-            BreederFactory.makeNewRabbits();
+            RabbitBreeder.makeNewAnimals();
         }
     }
 
@@ -61,7 +59,7 @@ public class RabbitPopulationTester {
     void showPopulationData() {
         System.out.println("ArrayDeque of males with size: "+RabbitPopulation.getAliveMales().size()+"\n"+RabbitPopulation.getAliveMales().toString());
         System.out.println("ArrayDeque of females with size: "+RabbitPopulation.getAliveFemales().size()+"\n"+RabbitPopulation.getAliveFemales().toString());
-        System.out.println("Number of dead rabbits: "+RabbitPopulation.getDeadRabbits().toString());
+        System.out.println("Number of dead rabbits: "+RabbitPopulation.getDeadAnimals().toString());
     }
 
 }

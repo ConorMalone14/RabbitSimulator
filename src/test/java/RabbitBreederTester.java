@@ -1,9 +1,8 @@
-import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
-import org.junit.jupiter.api.Assertions;
+import com.spartaglobal.RabbitSimulator.Breeder.RabbitBreeder;
 import org.junit.jupiter.api.Test;
 
-public class BreederFactoryTester {
-    BreederFactory breederFactory = new BreederFactory();
+public class RabbitBreederTester {
+    RabbitBreeder rabbitBreeder = new RabbitBreeder();
 
     @Test
     public void testMakeNewRabbit() {
