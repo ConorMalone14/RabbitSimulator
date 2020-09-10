@@ -1,7 +1,11 @@
 package com.spartaglobal.RabbitSimulator.Population;
 
+import com.spartaglobal.RabbitSimulator.Utilities.RandomGenerator;
+
+import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.ArrayDeque;
+import java.math.RoundingMode;
+import java.util.*;
 
 public class RabbitPopulation implements Population{
 
@@ -9,11 +13,76 @@ public class RabbitPopulation implements Population{
     private static ArrayDeque<BigInteger> aliveMales = new ArrayDeque<>(generationsPerLifeSpan);
     private static ArrayDeque<BigInteger> aliveFemales = new ArrayDeque<>(generationsPerLifeSpan);
     private static BigInteger deadAnimals = BigInteger.ZERO;
-    BigInteger eatenRabbits = BigInteger.ZERO;
+    private static BigInteger eatenRabbits = BigInteger.ZERO;
 
     public static void removeEatenRabbits(BigInteger rabbitsToBeEaten) {
 
+        BigInteger maleRabbitsToBeEaten = new BigDecimal(rabbitsToBeEaten).divide(BigDecimal.valueOf((double)1/ RandomGenerator.getRandomDistribution(0,1,1000)), RoundingMode.HALF_UP).toBigInteger();
 
+        BigInteger femaleRabbitsToBeEaten = rabbitsToBeEaten.subtract(maleRabbitsToBeEaten);
+
+        BigInteger minimumPopulation = maleRabbitsToBeEaten.min(femaleRabbitsToBeEaten);
+        BigInteger maleDiff = BigInteger.ZERO;
+        BigInteger totalMales = getTotalMales();
+        if (maleRabbitsToBeEaten.compareTo(totalMales) > 0) {
+            maleDiff = maleRabbitsToBeEaten.subtract(totalMales);
+        }
+
+        BigInteger femaleDiff = BigInteger.ZERO;
+        BigInteger totalFemales = getTotalFemales();
+        if (femaleRabbitsToBeEaten.compareTo(totalFemales) > 0) {
+            femaleDiff = femaleRabbitsToBeEaten.subtract(totalFemales);
+        }
+
+        femaleRabbitsToBeEaten = femaleRabbitsToBeEaten.add(maleDiff);
+        maleRabbitsToBeEaten = maleRabbitsToBeEaten.add(femaleDiff);
+
+                ArrayList<BigInteger> aliveMalesArray = new ArrayList<>();
+        Iterator<BigInteger> maleItr = aliveMales.descendingIterator();
+        BigInteger tempEatenRabbits = BigInteger.ZERO;
+        while (maleItr.hasNext()) {
+            BigInteger currentGeneration = maleItr.next();
+
+
+            if (currentGeneration.compareTo(maleRabbitsToBeEaten) >= 0) {
+                currentGeneration = currentGeneration.subtract(maleRabbitsToBeEaten);
+                tempEatenRabbits = tempEatenRabbits.add(maleRabbitsToBeEaten);
+            } else {
+                maleRabbitsToBeEaten = maleRabbitsToBeEaten.subtract(currentGeneration);
+                tempEatenRabbits = tempEatenRabbits.add(currentGeneration);
+                currentGeneration = BigInteger.ZERO;
+
+            }
+            aliveMalesArray.add(currentGeneration);
+
+        }
+
+        ArrayList<BigInteger> aliveFemalesArray = new ArrayList<>();
+        Iterator<BigInteger> femaleItr = aliveFemales.descendingIterator();
+        while (femaleItr.hasNext()) {
+            BigInteger currentGeneration = femaleItr.next();
+
+
+            if (currentGeneration.compareTo(femaleRabbitsToBeEaten) >= 0) {
+                currentGeneration = currentGeneration.subtract(femaleRabbitsToBeEaten);
+                tempEatenRabbits = tempEatenRabbits.add(femaleRabbitsToBeEaten);
+            } else {
+                femaleRabbitsToBeEaten = femaleRabbitsToBeEaten.subtract(currentGeneration);
+                tempEatenRabbits = tempEatenRabbits.add(maleRabbitsToBeEaten);
+                currentGeneration = BigInteger.ZERO;
+            }
+            aliveFemalesArray.add(currentGeneration);
+
+        }
+
+        Collections.reverse(aliveMalesArray);
+        aliveMales = new ArrayDeque<BigInteger>(aliveMalesArray);
+        Collections.reverse(aliveFemalesArray);
+        aliveFemales = new ArrayDeque<BigInteger>(aliveFemalesArray);
+
+
+
+        setEatenRabbits(getEatenRabbits().add(tempEatenRabbits));
 
     }
 
@@ -80,6 +149,14 @@ public class RabbitPopulation implements Population{
 
     static {
         initialiseArrayDequeues();
+    }
+
+    public static BigInteger getEatenRabbits() {
+        return eatenRabbits;
+    }
+
+    public static void setEatenRabbits(BigInteger eatenRabbits) {
+        RabbitPopulation.eatenRabbits = eatenRabbits;
     }
 
     public static BigInteger getTotalAnimals() {

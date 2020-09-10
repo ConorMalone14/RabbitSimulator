@@ -1,5 +1,6 @@
 import com.spartaglobal.RabbitSimulator.Breeder.FoxBreeder;
 import com.spartaglobal.RabbitSimulator.Population.FoxPopulation;
+import com.spartaglobal.RabbitSimulator.Population.RabbitPopulation;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,6 +20,11 @@ public class FoxPopulationTester {
         for (int i = 0;i < 50;i++) {
             FoxBreeder.makeNewAnimals();
         }
+    }
+
+    @Test
+    void testWhatCompareDoes() {
+
     }
 
     @AfterEach

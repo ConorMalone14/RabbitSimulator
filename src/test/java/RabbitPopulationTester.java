@@ -15,6 +15,19 @@ public class RabbitPopulationTester {
         showPopulationData();
     }
 
+    @Test
+    void test() {
+
+        RabbitPopulation.addNextGeneration(BigInteger.valueOf(500), BigInteger.valueOf(1));
+        showPopulationData();
+        BigInteger populationBeforeRemove = RabbitPopulation.getTotalAnimals();
+        RabbitPopulation.removeEatenRabbits(BigInteger.valueOf(100));
+
+        System.out.println("After subtraction: "+RabbitPopulation.getTotalAnimals());
+        System.out.println("Initial minus 100: "+populationBeforeRemove.subtract(BigInteger.valueOf(100)));
+        Assertions.assertEquals(RabbitPopulation.getTotalAnimals(), populationBeforeRemove.subtract(BigInteger.valueOf(100)));
+    }
+
 
     @Test
     void testStartsWithOneMaleRabbit() {
