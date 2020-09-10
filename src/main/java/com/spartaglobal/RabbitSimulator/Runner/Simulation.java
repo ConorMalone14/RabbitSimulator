@@ -14,14 +14,15 @@ public class Simulation {
 
     private static int timeElapsed;
     static int reportChoice = 0;
-
+    static int numGenerations = 0;
     public static void runOneMonth() {
         RabbitBreeder.makeNewAnimals();
         if ((timeElapsed % 12) == 0) {
             FoxBreeder.makeNewAnimals();
+            numGenerations++;
         }
         if (timeElapsed >= 12) {
-            Eater.foxesEatRabbits();
+            Eater.foxesEatRabbits(numGenerations);
         }
         timeElapsed++;
     }

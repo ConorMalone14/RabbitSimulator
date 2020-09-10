@@ -47,6 +47,7 @@ public class RabbitPopulation implements Population{
             if (currentGeneration.compareTo(maleRabbitsToBeEaten) >= 0) {
                 currentGeneration = currentGeneration.subtract(maleRabbitsToBeEaten);
                 tempEatenRabbits = tempEatenRabbits.add(maleRabbitsToBeEaten);
+                maleRabbitsToBeEaten = BigInteger.ZERO;
             } else {
                 maleRabbitsToBeEaten = maleRabbitsToBeEaten.subtract(currentGeneration);
                 tempEatenRabbits = tempEatenRabbits.add(currentGeneration);
@@ -66,6 +67,7 @@ public class RabbitPopulation implements Population{
             if (currentGeneration.compareTo(femaleRabbitsToBeEaten) >= 0) {
                 currentGeneration = currentGeneration.subtract(femaleRabbitsToBeEaten);
                 tempEatenRabbits = tempEatenRabbits.add(femaleRabbitsToBeEaten);
+                femaleRabbitsToBeEaten = BigInteger.ZERO;
             } else {
                 femaleRabbitsToBeEaten = femaleRabbitsToBeEaten.subtract(currentGeneration);
                 tempEatenRabbits = tempEatenRabbits.add(currentGeneration);

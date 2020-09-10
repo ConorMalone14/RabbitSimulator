@@ -126,7 +126,7 @@ public class FoxPopulation implements Population {
 
 
     public static void initArrayDequeues() {
-        setGenerationsPerLifeSpan(5);
+        setGenerationsPerLifeSpan(6);
         setAliveMales(new ArrayDeque<>(getGenerationsPerLifeSpan()));
         setAliveFemales(new ArrayDeque<>(getGenerationsPerLifeSpan()));
         setDeadAnimals(BigInteger.ZERO);
