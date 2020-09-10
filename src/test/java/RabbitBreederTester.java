@@ -5,6 +5,9 @@ public class RabbitBreederTester {
     RabbitBreeder rabbitBreeder = new RabbitBreeder();
 
     @Test
+    void test() {}
+
+    @Test
     public void testMakeNewRabbit() {
 
     }

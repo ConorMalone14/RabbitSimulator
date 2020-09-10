@@ -74,10 +74,6 @@ public class FoxPopulation implements Population {
         aliveFemales.addFirst(BigInteger.ONE);
     }
 
-    static {
-        initialiseArrayDequeues();
-    }
-
     public static BigInteger getTotalAnimals() {
         return getTotalMales().add(getTotalFemales());
     }
