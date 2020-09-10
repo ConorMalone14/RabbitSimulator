@@ -1,6 +1,8 @@
 package com.spartaglobal.RabbitSimulator.Runner;
 
+import com.spartaglobal.RabbitSimulator.Breeder.FoxBreeder;
 import com.spartaglobal.RabbitSimulator.Breeder.RabbitBreeder;
+import com.spartaglobal.RabbitSimulator.Predator.Eater;
 import com.spartaglobal.RabbitSimulator.Printer.Printer;
 
 import java.io.BufferedWriter;
@@ -15,6 +17,12 @@ public class Simulation {
 
     public static void runOneMonth() {
         RabbitBreeder.makeNewAnimals();
+        if ((timeElapsed % 12) == 0) {
+            FoxBreeder.makeNewAnimals();
+        }
+        if (timeElapsed >= 12) {
+            Eater.foxesEatRabbits();
+        }
         timeElapsed++;
     }
 
