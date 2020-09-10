@@ -86,4 +86,15 @@ public abstract class Population {
         return deadRabbits;
     }
 
+    public static void setAliveMales(ArrayDeque<BigInteger> aliveMales) {
+        Population.aliveMales = aliveMales;
+    }
+
+    public static void setAliveFemales(ArrayDeque<BigInteger> aliveFemales) {
+        Population.aliveFemales = aliveFemales;
+    }
+
+    public static void setDeadRabbits(BigInteger deadRabbits) {
+        Population.deadRabbits = deadRabbits;
+    }
 }
