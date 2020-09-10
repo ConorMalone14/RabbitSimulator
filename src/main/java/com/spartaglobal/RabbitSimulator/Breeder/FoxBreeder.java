@@ -16,7 +16,6 @@ public class FoxBreeder implements Breeder {
         BigInteger currentEligibleMales = FoxPopulation.getEligibleMales();
         BigInteger currentEligibleFemales = FoxPopulation.getEligibleFemales();
 
-
         BigInteger foxCouples = currentEligibleFemales.min(currentEligibleMales);
         System.out.println("Fox couples: "+foxCouples.toString());
 
@@ -28,7 +27,7 @@ public class FoxBreeder implements Breeder {
 
         BigInteger numberOfFemales = numberOfBabies.subtract(numberOfMales);
 
-        RabbitPopulation.addNextGeneration(numberOfMales, numberOfFemales);
+        FoxPopulation.addNextGeneration(numberOfMales, numberOfFemales);
 
     }
 

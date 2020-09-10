@@ -16,7 +16,7 @@ public class FoxPopulationTester {
 
     @Test
     void test4Years() {
-        for (int i = 0;i < 6;i++) {
+        for (int i = 0;i < 50;i++) {
             FoxBreeder.makeNewAnimals();
         }
     }
