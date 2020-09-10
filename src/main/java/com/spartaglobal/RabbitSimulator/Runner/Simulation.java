@@ -1,6 +1,6 @@
 package com.spartaglobal.RabbitSimulator.Runner;
 
-import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
+import com.spartaglobal.RabbitSimulator.Breeder.RabbitBreeder;
 import com.spartaglobal.RabbitSimulator.Printer.Printer;
 
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ public class Simulation {
     static int reportChoice = 0;
 
     public static void runOneMonth() {
-        BreederFactory.makeNewRabbits();
+        RabbitBreeder.makeNewAnimals();
         timeElapsed++;
     }
 

@@ -1,13 +1,11 @@
-import com.spartaglobal.RabbitSimulator.Factory.BreederFactory;
-import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
+import com.spartaglobal.RabbitSimulator.Breeder.RabbitBreeder;
+import com.spartaglobal.RabbitSimulator.Population.RabbitPopulation;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.math.RoundingMode;
 
 public class RabbitPopulationTester {
 
@@ -34,7 +32,7 @@ public class RabbitPopulationTester {
     @Test
     void testDoesKillRabbitsAfter80Generations() {
         for (int i = 0;i < 80;i++) {
-            BreederFactory.makeNewRabbits();
+            RabbitBreeder.makeNewRabbits();
         }
         String deadRabbits = RabbitPopulation.getDeadRabbits().toString();
         Assertions.assertTrue(deadRabbits.compareTo("0") > 0);
@@ -44,7 +42,7 @@ public class RabbitPopulationTester {
     @Test
     void testFourMonthCycle() {
         for (int i = 0;i < 4;i++) {
-            BreederFactory.makeNewRabbits();
+            RabbitBreeder.makeNewRabbits();
         }
     }
 

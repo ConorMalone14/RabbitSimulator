@@ -1,6 +1,6 @@
 package com.spartaglobal.RabbitSimulator.Printer;
 
-import com.spartaglobal.RabbitSimulator.Rabbit.RabbitPopulation;
+import com.spartaglobal.RabbitSimulator.Population.RabbitPopulation;
 import com.spartaglobal.RabbitSimulator.Runner.Simulation;
 
 import java.io.BufferedWriter;
