@@ -11,7 +11,9 @@ public class RabbitPopulation implements Population{
     private static BigInteger deadAnimals = BigInteger.ZERO;
     BigInteger eatenRabbits = BigInteger.ZERO;
 
-    public static void removeEatenRabbits() {
+    public static void removeEatenRabbits(BigInteger rabbitsToBeEaten) {
+
+
 
     }
 
