@@ -68,7 +68,7 @@ public class RabbitPopulation implements Population{
                 tempEatenRabbits = tempEatenRabbits.add(femaleRabbitsToBeEaten);
             } else {
                 femaleRabbitsToBeEaten = femaleRabbitsToBeEaten.subtract(currentGeneration);
-                tempEatenRabbits = tempEatenRabbits.add(maleRabbitsToBeEaten);
+                tempEatenRabbits = tempEatenRabbits.add(currentGeneration);
                 currentGeneration = BigInteger.ZERO;
             }
             aliveFemalesArray.add(currentGeneration);

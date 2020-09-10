@@ -1,0 +1,1801 @@
+
+
+==============================================================
+Monthly Report for Month 1
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 2
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 3
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 4
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 5
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 6
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 7
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 2
+Total population of female rabbits: 1
+Total population of male rabbits: 1
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 8
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 9
+Total population of female rabbits: 5
+Total population of male rabbits: 4
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 9
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 16
+Total population of female rabbits: 8
+Total population of male rabbits: 8
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 10
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 23
+Total population of female rabbits: 11
+Total population of male rabbits: 12
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 11
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 30
+Total population of female rabbits: 14
+Total population of male rabbits: 16
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 12
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 53
+Total population of female rabbits: 26
+Total population of male rabbits: 27
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 0
+==============================================================
+
+==============================================================
+Monthly Report for Month 13
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 46
+Total population of female rabbits: 27
+Total population of male rabbits: 19
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 38
+==============================================================
+
+==============================================================
+Monthly Report for Month 14
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 12
+Total population of female rabbits: 10
+Total population of male rabbits: 2
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 72
+==============================================================
+
+==============================================================
+Monthly Report for Month 15
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 16
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 17
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 18
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 19
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 20
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 21
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 22
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 23
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 24
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 2
+Total population of female foxes: 1
+Total population of male foxes: 1
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 25
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 26
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 27
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 28
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 29
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 30
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 31
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 32
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 33
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 34
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 35
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 36
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 37
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 38
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 39
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 40
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 41
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 42
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 43
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 44
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 45
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 46
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 47
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 48
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 8
+Total population of female foxes: 4
+Total population of male foxes: 4
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 49
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 50
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 51
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 52
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 53
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 54
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 55
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 56
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 57
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 58
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 59
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 60
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 6
+Total population of female foxes: 3
+Total population of male foxes: 3
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 61
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 62
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 63
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 64
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 65
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 66
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 67
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 68
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 69
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 70
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 71
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 72
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 11
+Total population of female foxes: 6
+Total population of male foxes: 5
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 73
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 74
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 75
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 76
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 77
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 78
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 79
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 80
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 81
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 82
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 83
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 84
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 22
+Total population of female foxes: 12
+Total population of male foxes: 10
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 85
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 86
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 87
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 88
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 89
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 90
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 91
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 92
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 93
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 94
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 95
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 96
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 26
+Total population of female foxes: 14
+Total population of male foxes: 12
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 97
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 37
+Total population of female foxes: 19
+Total population of male foxes: 18
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 98
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 37
+Total population of female foxes: 19
+Total population of male foxes: 18
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 99
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 37
+Total population of female foxes: 19
+Total population of male foxes: 18
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================
+
+==============================================================
+Monthly Report for Month 100
+==============================================================
+ == RABBIT REPORT == 
+Total population of rabbits: 0
+Total population of female rabbits: 0
+Total population of male rabbits: 0
+-------------------------------
+ == FOX REPORT == 
+Total population of foxes: 37
+Total population of female foxes: 19
+Total population of male foxes: 18
+-------------------------------
+ == DEATH REPORT == 
+Total population of expired rabbits: 0
+Total population of eaten rabbits: 84
+==============================================================

@@ -25,7 +25,7 @@ public class Printer {
         bufferedWriter.write("\n-------------------------------");
         bufferedWriter.write("\n == DEATH REPORT == ");
         bufferedWriter.write("\nTotal population of expired rabbits: " + RabbitPopulation.getTotalDead());
-//bufferedWriter.write("\nTotal population of eaten rabbits: " + RabbitPopulation.getEatenRabbits());
+        bufferedWriter.write("\nTotal population of eaten rabbits: " + RabbitPopulation.getEatenRabbits());
         bufferedWriter.write("\n==============================================================");
     }
 
@@ -45,7 +45,7 @@ public class Printer {
         System.out.println("-------------------------------");
         System.out.println(" == DEATH REPORT == ");
         System.out.println("Total population of expired rabbits: " + RabbitPopulation.getTotalDead());
-//System.out.println("Total population of eaten rabbits: " + RabbitPopulation.getEatenRabbits());
+        System.out.println("Total population of eaten rabbits: " + RabbitPopulation.getEatenRabbits());
         System.out.println("==============================================================");
     }
 
