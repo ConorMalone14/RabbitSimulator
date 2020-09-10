@@ -14,7 +14,7 @@ public class RabbitBreeder implements Breeder{
     public static void makeNewAnimals() {
 
         BigInteger currentEligibleMales = RabbitPopulation.getEligibleMales();
-        BigInteger currentEligibleFemales = Population.getEligibleFemales();
+        BigInteger currentEligibleFemales = RabbitPopulation.getEligibleFemales();
 
         BigInteger rabbitCouples = currentEligibleFemales.min(currentEligibleMales);
 

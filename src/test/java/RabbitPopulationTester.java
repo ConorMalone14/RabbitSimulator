@@ -34,7 +34,7 @@ public class RabbitPopulationTester {
         for (int i = 0;i < 80;i++) {
             RabbitBreeder.makeNewAnimals();
         }
-        String deadRabbits = RabbitPopulation.getDeadRabbits().toString();
+        String deadRabbits = RabbitPopulation.getDeadAnimals().toString();
         Assertions.assertTrue(deadRabbits.compareTo("0") > 0);
     }
 
@@ -59,7 +59,7 @@ public class RabbitPopulationTester {
     void showPopulationData() {
         System.out.println("ArrayDeque of males with size: "+RabbitPopulation.getAliveMales().size()+"\n"+RabbitPopulation.getAliveMales().toString());
         System.out.println("ArrayDeque of females with size: "+RabbitPopulation.getAliveFemales().size()+"\n"+RabbitPopulation.getAliveFemales().toString());
-        System.out.println("Number of dead rabbits: "+RabbitPopulation.getDeadRabbits().toString());
+        System.out.println("Number of dead rabbits: "+RabbitPopulation.getDeadAnimals().toString());
     }
 
 }
