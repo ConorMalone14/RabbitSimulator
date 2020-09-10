@@ -32,7 +32,7 @@ public class RabbitPopulationTester {
     @Test
     void testDoesKillRabbitsAfter80Generations() {
         for (int i = 0;i < 80;i++) {
-            RabbitBreeder.makeNewRabbits();
+            RabbitBreeder.makeNewAnimals();
         }
         String deadRabbits = RabbitPopulation.getDeadRabbits().toString();
         Assertions.assertTrue(deadRabbits.compareTo("0") > 0);
@@ -42,7 +42,7 @@ public class RabbitPopulationTester {
     @Test
     void testFourMonthCycle() {
         for (int i = 0;i < 4;i++) {
-            RabbitBreeder.makeNewRabbits();
+            RabbitBreeder.makeNewAnimals();
         }
     }
 
